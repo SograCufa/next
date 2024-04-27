@@ -7,7 +7,7 @@ import { TokenMetadata } from "./types";
 
 // Solana address you wish to receive fees
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
-  "GzzWXXDjLD4FDwDkWB5sARjC2aaLSfCQDjx3dmpoTY7K",
+  "GigeGLQVXCHWrdoV4DoC6ymfTtPCGWcGwnoQyxVuxgEa",
 );
 
 // Creator fee (in %)
@@ -27,6 +27,16 @@ export const PLATFORM_EXPLORER_URL = `https://explorer.gamba.so/platform/${PLATF
 
 // Supported tokens
 export const TOKENLIST = [
+  {
+    mint: "FAKE_TOKEN_MINT",
+    name: "FKDOGGO",
+    symbol: "FKDOGGO$",
+    image:
+      "https://github.com/facherito96/doggogames/blob/main/public/fkdoggo.png",
+    decimals: 9,
+    baseWager: 1e9,
+    usdPrice: 0,
+  },
   // SOL
   {
     mint: new PublicKey("So11111111111111111111111111111111111111112"),
@@ -47,16 +57,7 @@ export const TOKENLIST = [
     decimals: 9,
     baseWager: 0.01e9,
   },
-  // GUAC
-  {
-    mint: new PublicKey("AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR"),
-    name: "Guacamole",
-    symbol: "GUAC",
-    image:
-      "https://bafkreiccbqs4jty2yjvuxp5x7gzgepquvv657ttauaqgxfhxghuz5us54u.ipfs.nftstorage.link/",
-    decimals: 5,
-    baseWager: 2000000e5,
-  },
+  
   // ADD NEW TOKENS HERE
   // USE TOKEN LAYOUT FOR LAYOUT STRUCTURE
   // {
