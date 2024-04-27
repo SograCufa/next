@@ -35,7 +35,6 @@ export const TOKENLIST = [
       "https://github.com/facherito96/doggogames/blob/main/public/fkdoggo.png",
     decimals: 9,
     baseWager: 1e9,
-    usdPrice:
   },
   // SOL
   {
