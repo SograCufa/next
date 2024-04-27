@@ -33,7 +33,7 @@ export const TOKENLIST = [
     name: "FKDOGGO",
     symbol: "FKDOGGO$",
     image:
-      "https://github.com/facherito96/doggogames/blob/main/public/fkdoggo.png",
+      "https://raw.githubusercontent.com/facherito96/doggogames/blob/main/public/fkdoggo.png",
     decimals: 9,
     baseWager: 0.01e9,
   },
