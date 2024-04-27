@@ -27,15 +27,7 @@ export const PLATFORM_EXPLORER_URL = `https://explorer.gamba.so/platform/${PLATF
 
 // Supported tokens
 export const TOKENLIST = [
-  {
-    mint: "FAKE_TOKEN_MINT",
-    name: "FKDOGGO",
-    symbol: "FKDOGGO$",
-    image:
-      "https://github.com/facherito96/doggogames/blob/main/public/fkdoggo.png",
-    decimals: 9,
-    baseWager: 1e9,
-  },
+  
   // SOL
   {
     mint: new PublicKey("So11111111111111111111111111111111111111112"),
@@ -68,3 +60,14 @@ export const TOKENLIST = [
   //   baseWager: 0,
   // },
 ];
+// List of tokens supported by this platform
+export const TOKENS: Record<string, TokenMetadata> = {
+  "000000000000000000000000000000000000000000": {
+     mint: new PublicKey("FAKE_TOKEN_MINT"),
+     symbol: "FKDOGGO",
+     name: "FKDOGGO$",
+     image: "https://github.com/facherito96/doggogames/blob/main/public/fkdoggo.png",
+     decimals: 9,
+     baseWager: 1e9,
+  }
+};
