@@ -28,7 +28,7 @@ export const PLATFORM_EXPLORER_URL = `https://explorer.gamba.so/platform/${PLATF
 // Supported tokens
 export const TOKENLIST = [
   {
-    mint: new PublicKey("FAKE_TOKEN_MINT"),
+    mint: "FAKE_TOKEN_MINT",
     name: "FKDOGGO",
     symbol: "FKDOGGO$",
     image:
