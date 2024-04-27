@@ -61,13 +61,3 @@ export const TOKENLIST = [
   // },
 ];
 // List of tokens supported by this platform
-export const TOKENS: Record<string, TokenMetadata> = {
-  "000000000000000000000000000000000000000000": {
-     mint: new PublicKey("FAKE_TOKEN_MINT"),
-     symbol: "FKDOGGO",
-     name: "FKDOGGO$",
-     image: "https://github.com/facherito96/doggogames/blob/main/public/fkdoggo.png",
-     decimals: 9,
-     baseWager: 1e9,
-  }
-};
